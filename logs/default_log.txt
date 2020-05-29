@@ -1,0 +1,95 @@
+-----Configuration-----
+Experiment
+|	Algorithm Type: ea
+|	Number of Runs: 3
+|	Number of Evaluations: 200
+|	Sampling Rate: 1
+World
+|	Pill density: 0.5
+|	Fruit spawn probability: 0.01
+|	Fruit score: 10.0
+|	Time multiplier: 2.0
+RNG
+|	Type: time
+|	Seed: 1575237919645
+General EA Settings
+|	D Max: 6
+|	Termination: number of evals
+|	Generations until Convergence: 10
+Pac-Man EA Settings
+|	Population Size: 50
+|	Offspring Pool Size: 10
+|	Parent Selection: over-selection
+|	Survival Selection: k-tournament
+|	Tournament Size: 3
+|	Parsimony Pressure Penalty Coefficient: 0.5
+Ghost EA Settings
+|	Population Size: 50
+|	Offspring Pool Size: 10
+|	Parent Selection: over-selection
+|	Survival Selection: k-tournament
+|	Tournament Size: 3
+|	Parsimony Pressure Penalty Coefficient: 0.5
+File Paths
+|	Configuration file: default.cfg
+|	Log file: logs/default_log.txt
+|	Pac-Man Solution file: solutions/pacman_default_solution.txt
+|	Ghost Solution file: solutions/ghost_default_solution.txt
+|	High score file: worlds/default_highscore1.txt
+--------------------------------
+
+Result Log
+
+Run 1
+50	15.0	72.0
+60	22.56	72.0
+70	27.88	100.0
+80	32.36	100.0
+90	39.12	100.0
+100	41.02	100.0
+110	47.72	128.0
+120	49.3	128.0
+130	51.83	128.0
+140	55.54	128.0
+150	62.45	128.0
+160	65.43	128.0
+170	68.43	139.0
+180	69.01	139.0
+190	69.35	139.0
+200	70.16	139.0
+
+Run 2
+50	15.52	92.0
+60	25.89	94.0
+70	34.19	94.0
+80	40.77	135.0
+90	51.34	135.0
+100	61.23	135.5
+110	66.34	135.5
+120	68.62	135.5
+130	73.62	135.5
+140	77.1	135.5
+150	81.09	135.5
+160	82.79	135.5
+170	80.87	135.5
+180	81.11	135.5
+190	79.87	135.5
+200	80.37	135.5
+
+Run 3
+50	19.77	75.0
+60	22.98	75.0
+70	28.03	85.0
+80	34.89	85.0
+90	39.64	85.0
+100	43.66	93.5
+110	45.44	93.5
+120	49.95	104.5
+130	50.22	104.5
+140	51.41	104.5
+150	51.93	104.5
+160	52.92	104.5
+170	54.61	104.5
+180	54.71	104.5
+190	54.81	104.5
+200	54.45	104.5
